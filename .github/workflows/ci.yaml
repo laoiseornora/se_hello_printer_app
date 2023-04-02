@@ -23,13 +23,13 @@ jobs:
         name: Run linters
         runs-on: ubuntu-latest
 
-        steps:
-          - name: Check out Git repository
-            uses: actions/checkout@v2
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v2
 
-          # Install your linters here
+      # Install your linters here
 
-           - name: Run linters
-            uses: wearerequired/lint-action@v2
-            with:
+      -name: Run linters
+        uses: wearerequired/lint-action@v2
+        with:
             # Enable your linters here

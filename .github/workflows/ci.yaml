@@ -1,6 +1,6 @@
 name: Package Project
 
-# kiedy mam uruchomic automatyzacje
+# kiedy mam uruchomic automatyzacje 1
 on: [ push ]
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
         name: Run linters
         runs-on: ubuntu-latest
 
-    steps:
+     steps:
       - name: Check out Git repository
         uses: actions/checkout@v2
 
